@@ -40,3 +40,9 @@ const triangle = new Triangle([3, 4, 5]);
 console.log(triangle.countSides); // 3
 console.log(triangle.perimeter); // 12
 console.log(triangle.isValid); // true
+
+const square = new Square([4, 4, 4, 4]);
+console.log(square.countSides); // 4
+console.log(square.perimeter); // 16
+console.log(square.isValid); // true
+console.log(square.area); // 16
